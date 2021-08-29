@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,300;1,400&display=swap');
+/* COLORS
+grey text: rgb(71, 71, 71);
+*/
+/* PREREQUISITES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(243, 243, 243);
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color:rgb(37, 37, 37);
+    display: flex;
+    
+}
+
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    width: 300px;
+    border-right: 2px solid grey;
+    height: 100%;
+}
+
+.header__navbar {
+    font-size: 140%;
+    
+    padding: 18px 0;
+    padding-left: 15px;
+    border-bottom: 1px solid black;
+}
+
+.navbar__contents {
+    text-decoration: none;
+    list-style-type: none;
+    
+
+}
+
+.navbar__contents li {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border-bottom: 1px solid black;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-size: 100%;
+
+    
+}
+
+
+/* MAIN DOC*/
+
+
+#main-doc {
+    
+    margin-left: 330px;
+}
+
+
+/* GENERIC */
+
+.main-section {
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+
+.main-section header{
+    margin: 20px 0;
+    font-size: 140%;
+}
+
+.main-section p, .main-section li {
+    color:rgb(71, 71, 71);
+    margin: 14px 0;
+    font-size: 85%;
+    line-height: 140%;
+}
+
+code {
+    display: block;
+    background-color: rgb(224, 224, 224);
+    padding: 12px;
+    color:rgb(71, 71, 71);
+    font-size: 75%;
+    line-height: 200%;
+}
+
+
+/* LISTS */
+
+.ul--content {
+    padding-left: 40px;
+}
+
+.ul--nested {
+    padding-left: 40px;
+}

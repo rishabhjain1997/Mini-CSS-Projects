@@ -1,0 +1,114 @@
+/* 
+****PREREQUISITES*******
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: rgb(211, 211, 211);
+    color: rgb(61, 61, 61);
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x:hidden;
+}
+
+/* 
+****GENERICS*******
+*/
+
+h1, h2 {
+    margin: 20px auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 90%;
+    width: 96%;
+    margin: 30px auto;
+
+}
+
+h3 {
+    margin: 30px auto;
+    font-size: 120%;
+    text-align: center;
+}
+
+
+p {
+
+}
+
+section {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: disk;
+
+}
+
+ul li {
+    padding-bottom: 12px;
+}
+
+
+/* 
+****TITLE*******
+*/
+
+.intro p, .img-caption  {
+ 
+    padding: 0;
+    font-size: 70%;
+    text-align: center;
+    
+}
+
+/* 
+****IMAGE*******
+*/
+
+
+.img-caption {
+    padding: 15px 0;
+}
+
+.section-image {
+    padding: 30px 0 0 0;
+    background-color: white;
+    width: 98%;
+    margin: 0 auto;
+    border-radius: 0.5%;
+    box-shadow: 2px 2px 2px rgba(202, 202, 202, 0.849);
+}
+
+.image
+{   display: block;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tribute-info {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20%;
+    line-height: 140%;
+    font-size: 85%;
+}
+
+.famous-quote {
+    margin: 20px 0;
+    font-style: italic;
+
+}
+

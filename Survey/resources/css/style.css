@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,300;1,400&display=swap');
+/* PREREQUISITES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(0deg, rgba(26, 26, 26, 0.76), rgba(24, 24, 24, 0.801)),url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80') no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
+    font-family: Roboto, sans-serif;
+    
+}
+
+/* BUTTON */
+.btn--large {
+    height: 50px;
+    padding: 10px;
+    background: rgb(17, 160, 60);
+    border: 1px solid transparent;
+    border-radius: 2px;
+    color: rgb(233, 233, 233);
+    font-size: 95%;
+}
+
+
+/* TEXT */
+.text__small {
+    font-size: 80%;
+}
+/* HEADER */
+
+header {
+    display: flex;
+    color: rgb(230, 230, 230);
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    justify-self: start;
+    
+}
+
+.header__title {
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 300%;
+}
+
+.header__description {
+    font-style: italic;
+    font-size: 120%;
+    letter-spacing: 1px;
+    
+    padding: 20px 0;
+}
+
+
+/* FORM */
+
+
+form {
+    background:rgba(47, 44, 63, 0.753);
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px;
+    padding: 0 40px;
+    padding-bottom: 40px;
+    color: white;
+    line-height: 200%;
+    font-size: 130%;
+}
+
+.form__element {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+
+
+
+.form_input {
+    height: 40px;
+    font-size: 80%;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.form__radio, .form__checkbox  {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.form__radio input[type="radio"] {
+    transform: scale(1.5);
+    margin-right: 20px;
+    
+}
+
+.form__checkbox input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 15px;
+    
+}
+
+.form_suggestion {
+    border-radius: 0;
+    height: 120px;
+    padding: 10px 8px;
+    font-size: 105%;
+}
+
+
+/* PLACEHOLDER */
+::placeholder {
+    color: black;
+    opacity: 0.4; 
+  }
+
+  select {
+    color: rgb(117, 117, 117)!important;
+    background-color: rgb(255, 255, 255)!important;
+    
+}
+select:invalid {
+    color: #ee0000!important;
+}
+select:focus {
+    color: rgb(0, 0, 0)!important;
+}
